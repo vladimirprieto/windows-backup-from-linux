@@ -13,6 +13,8 @@ just paste the crea_restauro.sh on any place on linux.  i usually paste into use
 
 chmod +x crea_restauro.sh
 
+this script uses PartImage, but if it is not installed it tries to install through aptitude command.  in that case, it ask you root password
+
 HOWTO USE
 
 on the terminal just call the file:
@@ -50,6 +52,8 @@ basta con copiar el archivo crea_restauro.sh en cualquier lugar de linux.  usual
 luego hay que hacer el archivo ejecutable:
 
 chmod +x crea_restauro.sh
+
+este script usa PartImage, pero si no está instalado intenta hacerlo a través del comando aptitude.  en ese caso, pedirá contraseña de root.
 
 COMO USAR
 
