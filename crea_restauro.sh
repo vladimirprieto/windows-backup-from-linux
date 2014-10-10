@@ -16,5 +16,5 @@ Name=Restauro de Windows
 Icon=gnome-panel-launcher" > $HOME/Escritorio/Restauro_de_Windows.desktop
 chmod +x $HOME/Escritorio/Restauro_de_Windows.desktop
 cd $HOME/respaldos
-sudo aptitude install partimage
+sudo apt-get install partimage gksu
 sudo partimage -z1 -d -b save /dev/sda2 image.partimage.gz
